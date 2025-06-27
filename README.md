@@ -18,6 +18,16 @@ This project demonstrates a basic implementation of **Linear Regression** using 
    `pip install -r requirements.txt`
 3. Open the notebooks using Jupyter Notebook or Google Colab and run them in sequence.
 
+
+### 📦 Pretrained Model
+
+A trained model is available in the `models/` directory (`sales_model.joblib`) for quick testing. You can load it using:
+
+```python
+import joblib
+model = joblib.load('models/sales_model.joblib')
+
+
 ### 📦 Technologies Used
 
 * Python 3.x
