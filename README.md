@@ -1,3 +1,6 @@
+You got it, Sushrut — here's your **entire, polished `README.md`** in one clean, paste-ready block. No breaks, no chunks, no extra tags. Just drop it straight into your `README.md` file and you're good to go:
+
+---
 
 📈 **Linear Regression - Machine Learning Project**
 This project demonstrates a basic implementation of **Linear Regression** using Python and scikit-learn. It's designed as a beginner-friendly introduction to building, training, evaluating, and deploying a machine learning model.
@@ -18,6 +21,15 @@ This project demonstrates a basic implementation of **Linear Regression** using 
    `pip install -r requirements.txt`
 3. Open the notebooks using Jupyter Notebook or Google Colab and run them in sequence.
 
+### 📦 Pretrained Model
+
+A trained model is available in the `models/` directory Eg : (`sales_model.joblib`) for quick testing. You can load it using:
+
+```python
+import joblib
+model = joblib.load('models/sales_model.joblib') #  (replace that file name with the desired model)
+```
+
 ### 📦 Technologies Used
 
 * Python 3.x
@@ -35,10 +47,10 @@ This project demonstrates a basic implementation of **Linear Regression** using 
 * Evaluation metrics: Mean Squared Error, R² Score
 * Model persistence with `joblib`
 
-
 ### ✅ Future Plans
 
 * Extend to multivariate linear regression
 * Add polynomial regression
 * Integrate real-world datasets via APIs
+
 
