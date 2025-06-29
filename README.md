@@ -1,6 +1,3 @@
-You got it, Sushrut — here's your **entire, polished `README.md`** in one clean, paste-ready block. No breaks, no chunks, no extra tags. Just drop it straight into your `README.md` file and you're good to go:
-
----
 
 📈 **Linear Regression - Machine Learning Project**
 This project demonstrates a basic implementation of **Linear Regression** using Python and scikit-learn. It's designed as a beginner-friendly introduction to building, training, evaluating, and deploying a machine learning model.
