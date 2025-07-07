@@ -27,6 +27,13 @@ import joblib
 model = joblib.load('models/sales_model.joblib') #  (replace that file name with the desired model)
 ```
 
+To run that model, firstly u need to make a numpy array with the exact column values that were used in the latest dataframe , and then predict using :
+```python
+import joblib
+model = joblib.load('models/sales_model.joblib') #  (replace that file name with the desired model)
+model.predict(np.array([1, 3, 2]).reshape(1, -1) # Reshape to 1 sample with 3 features
+```
+
 ### 📦 Technologies Used
 
 * Python 3.x
